@@ -1,0 +1,18 @@
+div#top {
+	transition-property: width;
+	transition-duration: 1s;
+	width: auto !important;
+}
+
+#related {
+	display: none;
+}
+
+ytd-compact-autoplay-renderer.ytd-watch-next-secondary-results-renderer,
+.autoplay-bar {
+  opacity: opacity: 1 !important;
+}
+ytd-compact-autoplay-renderer.ytd-watch-next-secondary-results-renderer paper-toggle-button,
+.checkbox-on-off {
+  display: none !important;
+}
