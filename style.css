@@ -16,3 +16,11 @@ ytd-compact-autoplay-renderer.ytd-watch-next-secondary-results-renderer paper-to
 .checkbox-on-off {
   display: none !important;
 }
+
+.ytp-upnext.ytp-suggestion-set {
+  display: none !important;
+}
+
+.html5-endscreen.ytp-player-content.videowall-endscreen.ytp-show-tiles {
+  display: none !important;
+}
