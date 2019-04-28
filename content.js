@@ -1,6 +1,8 @@
 // When you click the logo button it'll take you to your subscriptions page
 // instead
-document.getElementById("logo").addEventListener('click', () => {
-	window.location.replace('/feed/subscriptions');
-});
 
+
+setInterval(() => {
+	const logo = document.querySelector('a#logo');
+	if (logo) logo.setAttribute('href', '/feed/subscriptions');
+}, 1000);

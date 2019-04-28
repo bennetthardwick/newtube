@@ -10,8 +10,9 @@ div#top {
 
 ytd-compact-autoplay-renderer.ytd-watch-next-secondary-results-renderer,
 .autoplay-bar {
-  opacity: opacity: 1 !important;
+  opacity: 1 !important;
 }
+
 ytd-compact-autoplay-renderer.ytd-watch-next-secondary-results-renderer paper-toggle-button,
 .checkbox-on-off {
   display: none !important;
@@ -22,5 +23,13 @@ ytd-compact-autoplay-renderer.ytd-watch-next-secondary-results-renderer paper-to
 }
 
 .html5-endscreen.ytp-player-content.videowall-endscreen.ytp-show-tiles {
+  display: none !important;
+}
+
+ytd-thumbnail {
+  display: none !important;
+}
+
+ytd-comments {
   display: none !important;
 }
