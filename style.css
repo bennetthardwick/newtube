@@ -33,3 +33,12 @@ ytd-thumbnail {
 ytd-comments {
   display: none !important;
 }
+
+div#primary {
+  max-width: 977px !important;
+  box-sizing: content-box;
+}
+
+#secondary {
+  display: none;
+}
